@@ -1,0 +1,382 @@
+html{
+ 
+    width:100%;
+    height:100%;
+}
+:root{
+    --color-primary:rgb(192, 244, 255);
+    --color-secondary:rgb(22, 90, 221);
+    --color-course:rgb(104, 119, 161);
+    --color-coures-button:rgb(109, 130, 186);
+}
+body{
+    background-color: var(--color-primary);
+  font-family: Arial, Helvetica, sans-serif;
+
+  width:100%;
+  height:100%;
+
+}
+#main-header{
+    width:100rem;
+    margin:auto;
+    overflow: hidden;
+    margin: 0;
+    margin-top: 4rem;
+    height: 5rem;
+
+}
+#logo{
+
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 45rem;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header-list{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width:85rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding-left: 10rem;
+    
+}
+#list{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25rem;
+    box-sizing:border-box;
+    border-radius: 10px;
+}
+
+
+
+#list a{
+color: black;
+text-decoration: none;
+font-family: inherit;
+font-weight: 600;
+font-size: 0.8rem;
+box-sizing:border-box;
+border-radius: 4rem;
+}
+#list a:hover{
+
+    opacity:0.8;
+    background-color: rgb(249, 203, 203);
+    border-radius: 2rem;
+}
+
+
+#list div {
+background-color: var(--color-secondary);
+padding: 0.5rem 1.5rem;
+border-radius: 1rem;
+cursor: pointer;
+color: rgb(255, 255, 255);
+
+}
+#list div a{
+color: rgb(255, 255, 255);
+}
+.top-section{
+align-items: center;
+height: 45rem;
+margin: 0;
+}
+.top-section-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    }
+.top-section img{
+ left: 10rem;
+
+}
+ img{
+   position: relative;
+   display: block;
+   width: 40rem;
+   margin: auto;
+   margin-top: 2rem;
+   
+
+}
+.introduction-slogan{
+    position: relative;
+    top:1rem;
+    text-align: left;
+    width: 30rem;
+}
+.slogan{
+    font-size: 2rem;
+    font-family: 'Lobster',cursive;
+    font-weight:100;
+    width: 18rem;
+}
+.introduction  p{
+font-size: 1rem;
+font-style: normal;
+}
+.introduction a{
+    text-decoration:none ;
+    color: black;
+    font-style: oblique;
+    border:1px solid rgb(104, 119, 161);
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+
+}
+.introduction svg{
+    width: 1rem;
+}
+
+.ab
+{
+  display: block;
+  margin:-130px;
+padding-right: 500px;
+
+}
+.border-content{
+    width:80%;
+    height:400px;
+    background-color:#afe9f4;
+    box-shadow:2px 4px 8px rgba(68,67,67);
+    border-radius:30px;
+    text-align: center;
+    padding:60px;
+    margin:0 auto;
+    position:relative;
+    
+}
+
+
+#border{
+    width:93%;
+    height:200px;
+    background-color:black;
+    box-shadow:2px 4px 8px rgba(68,67,67);
+    border-radius:30px;
+    text-align: center;
+    padding:60px;
+    margin-top: 150px;
+    position:relative;
+    
+}
+
+
+#section--2-information{
+    background-color: rgb(85, 111, 159);
+    width: 70%;
+    margin: auto;
+    height: 30rem;
+    border-radius: 1rem 1rem 0 0;
+    bottom: 5rem;
+    position: relative;
+    bottom: 0.9rem;
+    overflow:visible;
+}
+
+
+#section--2 ol{
+    list-style: none;
+    position: relative;
+    top: -6rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70rem;
+    margin: auto;
+    height: 13.5rem;
+
+}
+.last-section-slogan{
+    position: relative;
+    font-size: 2.5rem;
+    width: 21rem;
+  
+}
+
+#section--2 img{
+    position: relative;
+    top: -6rem;
+    width: 28rem;
+    box-sizing: border-box;
+    
+}
+
+#footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 95%;
+    height: 16rem;
+    margin: auto;
+    border-radius: 1rem 1rem 0 0;
+    position: relative;
+    color:rgb(239, 245, 246); 
+    box-sizing: border-box;
+    padding: 0rem 4rem;
+}
+#footer-section table{
+    width: 50px;
+    padding: 10px;
+}
+#footer-section table th{
+    width: 50px;
+    padding: 10px;
+}
+#footer-section table td{
+    width: 50px;
+    padding: 10px;
+}
+.copy-right{
+    position: relative;
+   top: 3rem;
+}
+
+
+
+@media (max-width:48rem)
+{
+    #main-header{
+      
+        display:flex;
+        width:40rem;
+        
+    }
+    #logo{
+        position: absolute;
+        left: 350px;
+        text-align: center;
+
+    }
+    
+    #header-list{
+        
+            width: 80%;
+        
+             justify-content: space-between;
+             display: flex;
+            
+    }
+      
+    #list{ 
+        display: block;
+        flex-direction: column;
+        justify-content:space-around;
+        grid-template-columns: 100%;
+    }
+    #list a{
+        display: block;
+        flex-direction: column;
+        padding:4px;
+        right:5px;
+        top:4px;
+
+    
+        }
+        #list div {
+            justify-content: space-around;
+            padding: 0.8rem 0.8rem;
+            border-radius: 1rem;
+            cursor: pointer;
+            color: rgb(255, 255, 255);
+            width: 60px;
+            }
+            .top-section{
+                align-items: center;
+                width:100%;
+                height: 45rem;
+                margin: 0;
+                }
+            .top-section div{
+            
+            align-items: center;
+               width:40rem;
+               justify-content: space-evenly;
+               
+            }
+         
+
+            .ab
+            {
+
+              display: block;
+              display:flex;
+               width:100%;
+            
+            }
+            img{
+            
+            
+                display: block;
+                width: 100%;
+                margin-top: 5rem;
+             
+             
+             }
+             #section--2-information{
+               
+                width: 45rem;
+        
+                height: 35rem;
+                border-radius: 1rem 1rem 0 0;
+                
+                position: relative;
+                bottom: 1rem;
+                overflow:visible;
+            }
+            #section--2 img{
+                position: relative;
+                top: -9rem;
+                right:7rem;
+                width: 29rem;
+                box-sizing: border-box;
+                
+            }
+            .last-section-slogan{
+                position: relative;
+                font-size: 2.5rem;
+                width: 20rem;
+                right:15rem;
+                top:1rem;
+            
+              
+            }
+            .introduction-slogan{
+                position: relative;
+                font-style: normal;
+                font-size:1.2rem;
+                top:1rem;
+                right:14rem;
+                width: 30rem;
+            }
+    
+            #footer-section{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+       
+                width: 100%;
+                height: 16rem;
+                margin: auto;
+                border-radius: 1rem 1rem 0 0;
+                position: relative;
+                top:5rem;
+                padding: 0rem 4rem;
+            }
+    
+
+}
